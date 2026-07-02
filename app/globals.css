@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+/* 儿童友好主题色 */
+@theme inline {
+  --color-kid-orange: #FF6B35;
+  --color-kid-blue: #4A90D9;
+  --color-kid-green: #4CAF50;
+  --color-kid-yellow: #FFD93D;
+  --color-kid-pink: #FF6B9D;
+  --color-kid-purple: #9B59B6;
+  --color-kid-bg: #FFF8F0;
+  --color-kid-card: #FFFFFF;
+
+  --font-size-kid-xl: 1.5rem;
+  --font-size-kid-2xl: 2rem;
+  --font-size-kid-3xl: 2.5rem;
+
+  --animate-bounce-in: bounceIn 0.5s ease-out;
+  --animate-shake: shake 0.5s ease-in-out;
+}
+
+@keyframes bounceIn {
+  0% { transform: scale(0); opacity: 0; }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-8px); }
+  75% { transform: translateX(8px); }
+}
+
+/* Base styles */
+body {
+  background-color: var(--color-kid-bg);
+  color: #374151;
+  font-family: 'Arial Rounded MT Bold', 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif;
+}
+
+/* Component utility classes (Tailwind v4 compatible - avoid @apply with custom theme values) */
+.btn-kid {
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  font-size: var(--font-size-kid-xl);
+  font-weight: 700;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  transition: all 0.2s;
+  min-height: 60px;
+  min-width: 60px;
+}
+.btn-kid:active {
+  transform: scale(0.95);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.btn-kid-primary {
+  color: white;
+  background-color: var(--color-kid-orange);
+}
+.btn-kid-primary:hover {
+  background-color: #ea580c;
+}
+
+.btn-kid-success {
+  color: white;
+  background-color: var(--color-kid-green);
+}
+
+.btn-kid-danger {
+  color: white;
+  background-color: var(--color-kid-pink);
+}
+
+.card-kid {
+  background-color: white;
+  border-radius: 1.5rem;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  padding: 1.5rem;
+  border: 2px solid #f3f4f6;
+}
+
+.emoji-lg {
+  font-size: 2.25rem;
+}
+
+.emoji-xl {
+  font-size: 3.75rem;
+}

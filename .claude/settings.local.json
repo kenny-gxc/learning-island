@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --js --tailwind --app --src-dir=false --eslint --import-alias=\"@/*\" --use-npm)",
+      "Bash(npx create-next-app@latest _temp_scaffold --js --tailwind --app --src-dir=false --eslint --import-alias=\"@/*\" --use-npm)",
+      "Bash(npx create-next-app@latest temp-scaffold --js --tailwind --app --src-dir=false --eslint --import-alias=\"@/*\" --use-npm)",
+      "Bash(cp -r temp-scaffold/* .)",
+      "Bash(cp -r temp-scaffold/.* .)",
+      "Bash(rm -rf temp-scaffold)",
+      "Bash(npm install *)"
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "users": [
+    {
+      "id": "u_1782883375098",
+      "name": "谷相成",
+      "createdAt": "2026-07-01 13:22:55"
+    },
+    {
+      "id": "u_1782898027676_p0l9i9",
+      "name": "222",
+      "createdAt": "2026/7/1 17:27:07"
+    },
+    {
+      "id": "u_1782898068616_9d4sgp",
+      "name": "111",
+      "createdAt": "2026/7/1 17:27:48"
+    },
+    {
+      "id": "u_1782887105943_wfefli",
+      "name": "晨晨",
+      "createdAt": "2026/7/1 17:26:00"
+    }
+  ],
+  "learningRecords": [
+    {
+      "id": 1,
+      "userId": "u_1782887105943_wfefli",
+      "subject": "math",
+      "question": "小明有3盒糖果，每盒里有4颗糖果。他一共有多少颗糖果？",
+      "options": "[\"7颗\",\"8颗\",\"12颗\",\"16颗\"]",
+      "answer": "C",
+      "userAnswer": "C",
+      "correct": 1,
+      "difficulty": "easy",
+      "knowledgePoint": "表内乘法（3×4）",
+      "mistakeType": "正确",
+      "timeSpent": 1,
+      "createdAt": "2026-07-01T09:26:25.123Z"
+    },
+    {
+      "id": 2,
+      "userId": "u_1782887105943_wfefli",
+      "subject": "math",
+      "question": "猫妈妈钓了24条小鱼，要平均分给她的3个孩子。每个小猫能分到多少条小鱼呢？",
+      "options": "[\"6条\",\"7条\",\"8条\",\"9条\"]",
+      "answer": "C",
+      "userAnswer": "C",
+      "correct": 1,
+      "difficulty": "easy",
+      "knowledgePoint": "表内除法",
+      "mistakeType": "正确",
+      "timeSpent": 1,
+      "createdAt": "2026-07-01T09:26:42.032Z"
+    },
+    {
+      "id": 3,
+      "userId": "u_1782898027676_p0l9i9",
+      "subject": "math",
+      "question": "妈妈买了3盘苹果，每盘都放了4个苹果。请你想一想，妈妈一共买了多少个苹果？",
+      "options": "[\"7个\",\"12个\",\"10个\"]",
+      "answer": "B",
+      "userAnswer": "B",
+      "correct": 1,
+      "difficulty": "easy",
+      "knowledgePoint": "表内乘法",
+      "mistakeType": "正确",
+      "timeSpent": 1,
+      "createdAt": "2026-07-01T09:27:24.517Z"
+    },
+    {
+      "id": 4,
+      "userId": "u_1782898068616_9d4sgp",
+      "subject": "math",
+      "question": "小明有4袋糖果，每袋里有5颗糖果。请问小明一共有多少颗糖果？",
+      "options": "[\"15颗\",\"20颗\",\"25颗\",\"9颗\"]",
+      "answer": "B",
+      "userAnswer": "B",
+      "correct": 1,
+      "difficulty": "easy",
+      "knowledgePoint": "表内乘法（5的乘法口诀）",
+      "mistakeType": "正确",
+      "timeSpent": 1,
+      "createdAt": "2026-07-01T09:28:24.103Z"
+    },
+    {
+      "id": 5,
+      "userId": "u_1782883375098",
+      "subject": "yuven",
+      "question": "小猴子今天去上学，它（ ）在座位上。小朋友，请帮小猴子选一选，括号里应该填哪个字？",
+      "options": "[\"坐\",\"座\"]",
+      "answer": "A",
+      "userAnswer": "A",
+      "correct": 1,
+      "difficulty": "easy",
+      "knowledgePoint": "形近字“坐”与“座”的区分",
+      "mistakeType": "正确",
+      "timeSpent": 0,
+      "createdAt": "2026-07-01T09:28:49.444Z"
+    }
+  ],
+  "errorBook": [],
+  "userProgress": [
+    {
+      "userId": "u_1782887105943_wfefli",
+      "subject": "math",
+      "correctCount": 2,
+      "totalCount": 2,
+      "experience": 20,
+      "lastStudyDate": "2026/7/1 17:26:42"
+    },
+    {
+      "userId": "u_1782898027676_p0l9i9",
+      "subject": "math",
+      "correctCount": 1,
+      "totalCount": 1,
+      "experience": 10,
+      "lastStudyDate": "2026/7/1 17:27:24"
+    },
+    {
+      "userId": "u_1782898068616_9d4sgp",
+      "subject": "math",
+      "correctCount": 1,
+      "totalCount": 1,
+      "experience": 10,
+      "lastStudyDate": "2026/7/1 17:28:24"
+    },
+    {
+      "userId": "u_1782883375098",
+      "subject": "yuven",
+      "correctCount": 1,
+      "totalCount": 1,
+      "experience": 10,
+      "lastStudyDate": "2026/7/1 17:28:49"
+    }
+  ],
+  "achievements": [
+    {
+      "userId": "u_1782887105943_wfefli",
+      "badgeId": "speed-demon",
+      "unlockedAt": "2026-07-01T09:26:25.189Z"
+    },
+    {
+      "userId": "u_1782898027676_p0l9i9",
+      "badgeId": "speed-demon",
+      "unlockedAt": "2026-07-01T09:27:24.522Z"
+    },
+    {
+      "userId": "u_1782898068616_9d4sgp",
+      "badgeId": "speed-demon",
+      "unlockedAt": "2026-07-01T09:28:24.108Z"
+    },
+    {
+      "userId": "u_1782883375098",
+      "badgeId": "speed-demon",
+      "unlockedAt": "2026-07-01T09:28:49.445Z"
+    }
+  ]
+}
